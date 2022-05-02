@@ -1,0 +1,80 @@
+.input {
+    -webkit-appearance: none;
+    height: 6px;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.input::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    background: white;
+    height: 6px;
+    border-radius: 3px;
+    transform: translateY(-2px);
+}
+
+.input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: #F43939;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(-8.5px);;
+}
+
+.volume_range {
+
+
+
+    height: 60px;
+    width: auto;
+    padding: 10px;
+    opacity: 0;
+    box-sizing: border-box;
+    transition: 200ms;
+
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.34);
+    border: 2px solid white;
+    display: none;
+}
+
+.volume_wrapper {
+    position: relative;
+    width: auto;
+
+
+}
+.volume_range_wrapper {
+    padding-left: 40px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    transform: translate(-50%, -170%) rotate(-90deg);
+
+}
+
+.volume_wrapper:hover .volume_range {
+    opacity: 1;
+    display: flex;
+}
+
+.volume_icon {
+    width: 24px;
+    height: 40px;
+    position: absolute;z-index: 1;
+    top: 0;
+    left: -80%;
+    cursor: pointer;
+    background: url('./../../../../../../../assets/icons/dynamic.svg') left no-repeat;
+
+}
+
+.volume_icon.muted {
+    background: blue;
+}

@@ -1,0 +1,57 @@
+.account_interaction_menu
+{
+    position: absolute;
+    top: 75px;
+    left: 100%;
+    transform: translateX(-120%);
+    z-index: 1;
+    margin-top: 10px;
+    margin-right: 15px;
+    width: 120px;
+    height: auto;
+    background-color: white;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 9px 15px;
+
+}
+
+.account_menu_btn {
+    color: black;
+}
+
+.account_menu_btn::after
+{
+    content: "";
+    display: block;
+    width: auto;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0px;
+}
+
+.account_exit_btn
+{
+    cursor: pointer;
+    color: #F43939;
+}
+
+.account_exit_btn::after
+{
+    content: "";
+    display: block;
+    width: auto;
+    height: 3px;
+    background-color: #F43939;
+    margin: 3px 0px;
+}
+.back {
+    width: 100%;
+    height: 100%;
+    background: red;
+    position: absolute;
+    z-index: 1
+;
+}

@@ -1,0 +1,10 @@
+const SET_INIT = './App/SET-INIT'
+const TOGGLE_READING_STATUS = './App/TOGGLE-READING-STATUS'
+
+
+export default {
+    SET_INIT,
+    TOGGLE_READING_STATUS,
+
+}
+

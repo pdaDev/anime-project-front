@@ -1,0 +1,16 @@
+.header_wrapper
+{
+    height: auto;
+    width: 100%;
+    background-color: #902672;
+
+}
+.nav_wrapper
+{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 14px 50px;
+    justify-content: end;
+}
+
